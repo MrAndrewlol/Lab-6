@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.Spinner
 import android.widget.TextView
 import com.android.volley.Request
 import com.android.volley.RequestQueue
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         var textView = findViewById<TextView>(R.id.textView)
         var button = findViewById<Button>(R.id.button)
+        val spinner: Spinner = findViewById(R.id.spinner2)
         // ...
 
         // Instantiate the RequestQueue.
